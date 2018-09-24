@@ -1,0 +1,135 @@
+/*
+Theme personalizado para el ministerio publico fiscal
+Emil Gonzalez
+*/
+
+
+body {font-family: 'Raleway', sans-serif!important;}
+
+
+
+
+
+/*fondos*/
+html  .bg-dark, html body .badge-dark{
+	background-color: #090921!important;
+}
+html body .bg-dark-2, html body .badge-dark-2{
+	background-color: #0D0D30!important;
+}
+html body .bg-dark-3, html body .badge-dark-3{
+	background-color: #1A1A56!important;
+}
+
+
+
+
+html body .bg-succes,html body .badge-success{
+	background-color: #01DFA5!important;
+
+}
+
+html body .bg-info,html body .badge-info{
+	background-color: #3687E8!important;
+
+}
+
+html body .bg-light,html body .badge-light{
+	background-color: #ececec!important;
+
+}
+
+
+html body .bg-primary,html body .badge-primary{
+	background-color: #1d1a63!important;
+
+}
+
+/*color de txt*/
+html body .text-dark{
+	color: #090921!important;
+}
+
+
+html body .text-info{
+	color: #3687E8!important
+}
+
+
+html body .text-success{
+	color: #01DFA5!important
+}
+
+/*botones*/
+html body .btn{
+	-webkit-border-radius: 2px!important;
+border-radius: 2px!important;
+}
+
+html body .btn-dark{
+	background-color: #0D0D30!important;
+	border:none;
+}
+
+.btn-outline-light:hover{
+	color: #1d1a63!important
+}
+
+.btn-outline-dark{
+	border-color: #090921!important
+}
+
+
+.btn-outline-dark:hover{
+	background-color: #090921!important;
+	color: #fff!important;
+}
+
+
+.btn-outline-info{
+	border-color: #3687E8!important;
+}
+
+.btn-info{
+	background-color: #3687E8!important;
+	color: #fff!important;
+	border-color: #2673BF!important;
+	border-width:  0 0 3px 0!important;
+}
+
+
+.btn-success{
+	background-color: #01DFA5!important;
+	border: 0!important;
+	color: #090921!important;
+}
+
+.btn-primary{
+	background-color: #1d1a63!important;
+	border: 0!important;
+	color: #fff!important;
+}
+
+
+.btn-primary:hover{
+	background-color: #090921!important;
+}
+
+/*badge*/
+html body .badge{
+	-webkit-border-radius: 2px!important;
+border-radius: 2px!important;
+}
+
+
+
+html body .border-secondary{
+	border-color: #eee!important
+}
+
+
+/*formularios*/
+.form-control{
+	-webkit-border-radius: 2px!important;
+border-radius: 2px!important
+}

@@ -1,0 +1,122 @@
+html,body{height: 100%}
+
+body{
+  overflow-x: hidden;
+}
+
+@media (min-width: 800px) {
+  body{
+    font-size: 18px!important;
+    background: url("../images/narco-1.jpg") center no-repeat;
+    background-size: 100% auto;
+
+  }
+}/**/
+
+.wrapper{
+  
+    
+
+}
+
+
+.btn-group label.active{
+  border: none!important;
+  box-shadow:none;
+  color: #090921!important;
+  background: #fff!important;
+  font-weight: 500;
+}
+
+
+.setup-content .container{
+  max-width: 1200px!important;
+}
+
+@media (max-width: 1000px) {
+  .container{
+    padding: 0 35px!important;
+  }
+}/**/
+
+
+
+
+
+#step-3----select{
+  background-color: #2673BF!important;
+  color: #fff!important;
+  border: none!important;
+  outline: none;
+  box-shadow: none;
+}
+
+
+
+
+
+
+.alert{
+  -webkit-border-radius: 0 0 0 0!important;
+border-radius: 0 0 0 0!important;
+}
+
+
+
+.pagination{
+
+
+width: 100%;
+  
+}
+
+
+.setup-panel{
+  width: 100%!important;
+
+}
+.setup-panel .stepwizard-step{
+  width: 33.3%!important;
+  
+  
+}
+
+.pagination {
+  position: relative;
+}
+
+.pagination  a{
+  
+  display: block;
+  height: 6px;
+  background: #1A1A56;
+  
+  
+  width: 100%;
+  
+
+
+z-index: 10;
+
+}
+
+.pagination a.btn-selected{
+  background: #2673BF;
+
+}
+
+
+
+
+@media (max-width: 764px) {
+ .leyenda{
+  font-size: 10px;
+  line-height: 8px;
+}
+
+.detalle-info{
+  font-size: 14px;
+  line-height: 14px;
+}
+ 
+}/**/
